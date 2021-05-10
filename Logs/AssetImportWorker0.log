@@ -1,0 +1,205 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19041.928; Version 2004; 64bit' Language: 'de' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Digital Art/GithubProjects/AR2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49633
+Successfully changed project path to: D:/Digital Art/GithubProjects/AR2
+D:/Digital Art/GithubProjects/AR2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.68 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Digital Art/GithubProjects/AR2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   27.21.14.6611
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001558 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.18 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2715 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 1.988200 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.551900 ms  DeleteObjects: 0.065500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg
+  artifactKey: Guid(4381073313ab7ea4f905979151a55156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Left_scaled.jpg using Guid(4381073313ab7ea4f905979151a55156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47069b0111a6a09e0d6e204b5b00e477') in 0.148419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg
+  artifactKey: Guid(a39240edce7bd3940867ccf14ba4270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Right_scaled.jpg using Guid(a39240edce7bd3940867ccf14ba4270b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45d22760272d51a310f7a57f4afd20b') in 0.015294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg
+  artifactKey: Guid(d66032d25cff61c4585c2f395d4f6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Front_scaled.jpg using Guid(d66032d25cff61c4585c2f395d4f6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c5cd48203c6ff04aedf6b16d95b00e') in 0.033349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg
+  artifactKey: Guid(3b3cf30ab7479fc45a6362fc4cb5e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg using Guid(3b3cf30ab7479fc45a6362fc4cb5e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2a2b6bae209eb17bccbb0fe0b48a20') in 0.013365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg
+  artifactKey: Guid(d28f7a8a9b3dfff44bb6faf80929212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg using Guid(d28f7a8a9b3dfff44bb6faf80929212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec24ca2b1ecaf2c5b88d47769a48271a') in 0.039791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg
+  artifactKey: Guid(cc6daa766aade3b4cbaeeac788249a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Oxygen_scaled.jpg using Guid(cc6daa766aade3b4cbaeeac788249a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd9db834f91dcd56d0d5098a0406272') in 0.039269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg
+  artifactKey: Guid(33aedae9989557c4298ce94822d5745e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Bottom_scaled.jpg using Guid(33aedae9989557c4298ce94822d5745e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a801dd89f11202ec4c71a3a24ea7269b') in 0.046205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg
+  artifactKey: Guid(cd759bcce9643934392e470cd9d0d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Back_scaled.jpg using Guid(cd759bcce9643934392e470cd9d0d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed14e799b8de0d491d834d24ec72e21c') in 0.014266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Top_scaled.jpg
+  artifactKey: Guid(88ae6815c2214b71b7e8e53efddf0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Top_scaled.jpg using Guid(88ae6815c2214b71b7e8e53efddf0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b310b064bd07a6d3d77cdc60f07105ad') in 0.014775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg
+  artifactKey: Guid(77fb44a366db5cb41b8c06649271f8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg using Guid(77fb44a366db5cb41b8c06649271f8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2cf4428fcc3006daef5545ee694390') in 0.009929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg
+  artifactKey: Guid(2feb120d7f5872f499dfed51deb3d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/MarsBox.Top_scaled.jpg using Guid(2feb120d7f5872f499dfed51deb3d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f2ca0f7cbc0dece15fac4b1bf81509') in 0.014081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Body_scaled.jpg
+  artifactKey: Guid(f930368b2014406d9fc39e0bc4925f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/RocketBooster.Body_scaled.jpg using Guid(f930368b2014406d9fc39e0bc4925f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb830c03e02db40a200395f6673433ee') in 0.014940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg
+  artifactKey: Guid(a35a2d04e4ca5f643a173fb3a98d5fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg using Guid(a35a2d04e4ca5f643a173fb3a98d5fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9df5f99b132983ce733be41b603ec4a') in 0.048370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.957892 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(0e0c5ba68e72a474aa50dbd6218c48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(0e0c5ba68e72a474aa50dbd6218c48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5675b1c830a587d3505d768624c204') in 0.005297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.410153 seconds.
+  path: Assets/Targets
+  artifactKey: Guid(a72cf5380bdd79e4f874a3033c92e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Targets using Guid(a72cf5380bdd79e4f874a3033c92e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bafb668fff3c893877bbc57de066860') in 0.005354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.488913 seconds.
+  path: Assets/Targets/Target2.png
+  artifactKey: Guid(6ef85b410479de54581e4352ed505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Targets/Target2.png using Guid(6ef85b410479de54581e4352ed505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c559a6b7b1e2594d9e18a0942f881') in 0.008506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.357937 seconds.
+  path: Assets/Targets/Target2.png
+  artifactKey: Guid(6ef85b410479de54581e4352ed505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Targets/Target2.png using Guid(6ef85b410479de54581e4352ed505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ed407b7bb87c1de29e2dac7c4f290a') in 0.006489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.554156 seconds.
+  path: Assets/Targets/Target2.png
+  artifactKey: Guid(6ef85b410479de54581e4352ed505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Targets/Target2.png using Guid(6ef85b410479de54581e4352ed505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887cd9ab5b4b6b2a0deeaf1a70a91ebf') in 0.006464 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
